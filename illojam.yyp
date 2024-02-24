@@ -45,6 +45,7 @@
     {"id":{"name":"fnt_arial_default","path":"fonts/fnt_arial_default/fnt_arial_default.yy",},},
     {"id":{"name":"snd_versos_perversos_yo","path":"sounds/snd_versos_perversos_yo/snd_versos_perversos_yo.yy",},},
     {"id":{"name":"obj_bokeron","path":"objects/obj_bokeron/obj_bokeron.yy",},},
+    {"id":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
     {"id":{"name":"obj_verso_result_pos","path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},},
     {"id":{"name":"obj_arrow_key","path":"objects/obj_arrow_key/obj_arrow_key.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -55,6 +56,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"r_bokeron_versos_perversos","path":"rooms/r_bokeron_versos_perversos/r_bokeron_versos_perversos.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

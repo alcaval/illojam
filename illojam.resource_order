@@ -25,6 +25,7 @@
     {"name":"spr_bokeron_correct","order":2,"path":"sprites/spr_bokeron_correct/spr_bokeron_correct.yy",},
     {"name":"snd_versos_perversos_yo","order":1,"path":"sounds/snd_versos_perversos_yo/snd_versos_perversos_yo.yy",},
     {"name":"obj_bokeron","order":3,"path":"objects/obj_bokeron/obj_bokeron.yy",},
+    {"name":"r_si_o_no","order":2,"path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"obj_verso_result_pos","order":2,"path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"r_bokeron_versos_perversos","order":1,"path":"rooms/r_bokeron_versos_perversos/r_bokeron_versos_perversos.yy",},
