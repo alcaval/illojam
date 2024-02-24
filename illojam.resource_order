@@ -14,9 +14,9 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"versos_perversos_minigame","order":3,"path":"folders/Sprites/versos_perversos_minigame.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"versos_perversos_minigame","order":3,"path":"folders/Sprites/versos_perversos_minigame.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bokeron_portrait","order":1,"path":"sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",},
