@@ -20,6 +20,8 @@
     {"name":"versos_perversos_minigame","order":3,"path":"folders/Sprites/versos_perversos_minigame.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"si_o_no_minigame","order":4,"path":"folders/Objects/si_o_no_minigame.yy",},
+    {"name":"si_o_no_minigame","order":4,"path":"folders/Sprites/si_o_no_minigame.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_spawn","order":8,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},
@@ -31,6 +33,8 @@
     {"name":"spr_flipendo","order":2,"path":"sprites/spr_flipendo/spr_flipendo.yy",},
     {"name":"obj_flipendo_enemy","order":5,"path":"objects/obj_flipendo_enemy/obj_flipendo_enemy.yy",},
     {"name":"spr_jarri_varita","order":1,"path":"sprites/spr_jarri_varita/spr_jarri_varita.yy",},
+    {"name":"obj_button_yes","order":2,"path":"objects/obj_button_yes/obj_button_yes.yy",},
+    {"name":"obj_button_no","order":3,"path":"objects/obj_button_no/obj_button_no.yy",},
     {"name":"spr_bokeron_correct","order":2,"path":"sprites/spr_bokeron_correct/spr_bokeron_correct.yy",},
     {"name":"spr_enemy_jarri_socser","order":3,"path":"sprites/spr_enemy_jarri_socser/spr_enemy_jarri_socser.yy",},
     {"name":"obj_jarri_spawn","order":7,"path":"objects/obj_jarri_spawn/obj_jarri_spawn.yy",},
@@ -46,6 +50,7 @@
     {"name":"obj_jarri_varita","order":2,"path":"objects/obj_jarri_varita/obj_jarri_varita.yy",},
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_jarri_controller","order":6,"path":"objects/obj_jarri_controller/obj_jarri_controller.yy",},
+    {"name":"obj_character","order":1,"path":"objects/obj_character/obj_character.yy",},
     {"name":"r_bokeron_versos_perversos","order":1,"path":"rooms/r_bokeron_versos_perversos/r_bokeron_versos_perversos.yy",},
   ],
 }
