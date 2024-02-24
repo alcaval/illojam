@@ -38,6 +38,7 @@
     {"name":"obj_bokeron","order":3,"path":"objects/obj_bokeron/obj_bokeron.yy",},
     {"name":"obj_jarri_wall","order":1,"path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},
     {"name":"r_jarri_socser","order":2,"path":"rooms/r_jarri_socser/r_jarri_socser.yy",},
+    {"name":"r_si_o_no","order":2,"path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"obj_verso_result_pos","order":2,"path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},
     {"name":"spr_jarri_player","order":4,"path":"sprites/spr_jarri_player/spr_jarri_player.yy",},
     {"name":"paint_background","order":5,"path":"sprites/paint_background/paint_background.yy",},

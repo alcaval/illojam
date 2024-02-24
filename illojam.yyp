@@ -60,6 +60,7 @@
     {"id":{"name":"obj_bokeron","path":"objects/obj_bokeron/obj_bokeron.yy",},},
     {"id":{"name":"obj_jarri_wall","path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},},
     {"id":{"name":"r_jarri_socser","path":"rooms/r_jarri_socser/r_jarri_socser.yy",},},
+    {"id":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
     {"id":{"name":"obj_verso_result_pos","path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},},
     {"id":{"name":"spr_jarri_player","path":"sprites/spr_jarri_player/spr_jarri_player.yy",},},
     {"id":{"name":"paint_background","path":"sprites/paint_background/paint_background.yy",},},
@@ -78,6 +79,7 @@
     {"roomId":{"name":"r_bokeron_versos_perversos","path":"rooms/r_bokeron_versos_perversos/r_bokeron_versos_perversos.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"r_jarri_socser","path":"rooms/r_jarri_socser/r_jarri_socser.yy",},},
+    {"roomId":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
