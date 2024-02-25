@@ -11,7 +11,6 @@
     {"name":"inst_481E5BA0","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_5C96AEBB","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_32C59503","path":"rooms/r_si_o_no/r_si_o_no.yy",},
-    {"name":"inst_649F6747","path":"rooms/r_si_o_no/r_si_o_no.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -21,7 +20,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_481E5BA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_yes","path":"objects/obj_button_yes/obj_button_yes.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C96AEBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_no","path":"objects/obj_button_no/obj_button_no.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32C59503","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_649F6747","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fake_bokeron","path":"objects/obj_fake_bokeron/obj_fake_bokeron.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"mockup","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_41AA28F_2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":18.000002,"scaleY":2.0,"spriteId":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"x":384.0,"y":928.0,},
