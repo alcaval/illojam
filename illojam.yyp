@@ -44,6 +44,7 @@
   "resources": [
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},},
     {"id":{"name":"spr_bokeron_portrait","path":"sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",},},
+    {"id":{"name":"obj_fake_guillem","path":"objects/obj_fake_guillem/obj_fake_guillem.yy",},},
     {"id":{"name":"obj_versos","path":"objects/obj_versos/obj_versos.yy",},},
     {"id":{"name":"spr_bokeron_bad","path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},},
     {"id":{"name":"spr_jarri_player_draw","path":"sprites/spr_jarri_player_draw/spr_jarri_player_draw.yy",},},
@@ -64,6 +65,7 @@
     {"id":{"name":"obj_jarri_spawn","path":"objects/obj_jarri_spawn/obj_jarri_spawn.yy",},},
     {"id":{"name":"fnt_arial_default","path":"fonts/fnt_arial_default/fnt_arial_default.yy",},},
     {"id":{"name":"snd_versos_perversos_yo","path":"sounds/snd_versos_perversos_yo/snd_versos_perversos_yo.yy",},},
+    {"id":{"name":"obj_true_guillem","path":"objects/obj_true_guillem/obj_true_guillem.yy",},},
     {"id":{"name":"obj_bokeron","path":"objects/obj_bokeron/obj_bokeron.yy",},},
     {"id":{"name":"obj_jarri_wall","path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},},
     {"id":{"name":"r_jarri_socser","path":"rooms/r_jarri_socser/r_jarri_socser.yy",},},
@@ -72,6 +74,7 @@
     {"id":{"name":"obj_verso_result_pos","path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},},
     {"id":{"name":"spr_jarri_player","path":"sprites/spr_jarri_player/spr_jarri_player.yy",},},
     {"id":{"name":"paint_background","path":"sprites/paint_background/paint_background.yy",},},
+    {"id":{"name":"obj_true_bokeron","path":"objects/obj_true_bokeron/obj_true_bokeron.yy",},},
     {"id":{"name":"obj_arrow_key","path":"objects/obj_arrow_key/obj_arrow_key.yy",},},
     {"id":{"name":"obj_enemy_jarri_socser","path":"objects/obj_enemy_jarri_socser/obj_enemy_jarri_socser.yy",},},
     {"id":{"name":"obj_jarri_varita","path":"objects/obj_jarri_varita/obj_jarri_varita.yy",},},

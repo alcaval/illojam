@@ -27,6 +27,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_enemy_spawn","order":8,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},
     {"name":"spr_bokeron_portrait","order":1,"path":"sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",},
+    {"name":"obj_fake_guillem","order":1,"path":"objects/obj_fake_guillem/obj_fake_guillem.yy",},
     {"name":"obj_versos","order":1,"path":"objects/obj_versos/obj_versos.yy",},
     {"name":"spr_bokeron_bad","order":3,"path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},
     {"name":"r_jarri","order":3,"path":"rooms/r_jarri/r_jarri.yy",},
@@ -41,6 +42,7 @@
     {"name":"obj_jarri_spawn","order":7,"path":"objects/obj_jarri_spawn/obj_jarri_spawn.yy",},
     {"name":"obj_hand","order":4,"path":"objects/obj_hand/obj_hand.yy",},
     {"name":"snd_versos_perversos_yo","order":1,"path":"sounds/snd_versos_perversos_yo/snd_versos_perversos_yo.yy",},
+    {"name":"obj_true_guillem","order":3,"path":"objects/obj_true_guillem/obj_true_guillem.yy",},
     {"name":"obj_bokeron","order":3,"path":"objects/obj_bokeron/obj_bokeron.yy",},
     {"name":"obj_jarri_wall","order":1,"path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},
     {"name":"r_jarri_socser","order":2,"path":"rooms/r_jarri_socser/r_jarri_socser.yy",},
@@ -50,6 +52,7 @@
     {"name":"paint_background","order":5,"path":"sprites/paint_background/paint_background.yy",},
     {"name":"obj_enemy_jarri_socser","order":4,"path":"objects/obj_enemy_jarri_socser/obj_enemy_jarri_socser.yy",},
     {"name":"obj_jarri_varita","order":2,"path":"objects/obj_jarri_varita/obj_jarri_varita.yy",},
+    {"name":"obj_true_bokeron","order":2,"path":"objects/obj_true_bokeron/obj_true_bokeron.yy",},
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_jarri_controller","order":6,"path":"objects/obj_jarri_controller/obj_jarri_controller.yy",},
     {"name":"obj_character","order":1,"path":"objects/obj_character/obj_character.yy",},

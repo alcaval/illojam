@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fake_bokeron",
+  "name": "obj_true_bokeron",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_box",
-    "path": "sprites/spr_box/spr_box.yy",
+    "name": "spr_bokeron_portrait",
+    "path": "sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",
   },
   "spriteMaskId": null,
   "visible": true,
