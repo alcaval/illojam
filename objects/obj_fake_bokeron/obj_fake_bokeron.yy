@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_yes",
+  "name": "obj_fake_bokeron",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "si_o_no_minigame",
-    "path": "folders/Objects/si_o_no_minigame.yy",
+    "name": "characters",
+    "path": "folders/Objects/si_o_no_minigame/characters.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_arrow",
-    "path": "sprites/spr_arrow/spr_arrow.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
