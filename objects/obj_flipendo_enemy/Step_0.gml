@@ -1,0 +1,1 @@
+direction = stored_direction
