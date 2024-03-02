@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_arrow",
-    "path": "sprites/spr_arrow/spr_arrow.yy",
+    "name": "spr_si_btn_idle",
+    "path": "sprites/spr_si_btn_idle/spr_si_btn_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_box",
-    "path": "sprites/spr_box/spr_box.yy",
+    "name": "spr_hand",
+    "path": "sprites/spr_hand/spr_hand.yy",
   },
   "spriteMaskId": null,
   "visible": true,

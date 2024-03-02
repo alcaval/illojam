@@ -3,18 +3,14 @@
 
 character = obj_fake_bokeron;
 current_option = obj_button_yes;
-fake_characters = [obj_fake_bokeron, obj_fake_guillem];
-true_characters = [obj_true_bokeron, obj_true_guillem];
+
+bip_sounds = [snd_bip_1, snd_bip_2, snd_bip_3]
+bip_ascending = true
+bip_index = 0
+characters = [obj_fake_bokeron, obj_fake_guillem, obj_true_bokeron, obj_true_guillem]
 
 randomize();
-var is_true_character = random(1) < 0.5;
-
-if(is_true_character) {
-	character = true_characters[irandom(array_length(true_characters)-1)]
-} else {
-	character = fake_characters[irandom(array_length(fake_characters)-1)]
-}
+character = characters[irandom(array_length(characters)-1)]
 
 instance_create_layer(x,y, layer, character)
 show_debug_message(object_get_name(character))
-
