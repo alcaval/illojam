@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_bokeron_bad",
-  "bbox_bottom": 63,
-  "bbox_left": 10,
-  "bbox_right": 60,
-  "bbox_top": 8,
+  "bbox_bottom": 400,
+  "bbox_left": 3,
+  "bbox_right": 296,
+  "bbox_top": 12,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"95325550-cf05-4c65-a231-e37f58748e35",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75f4f28c-e8c4-43a7-8766-247d833ca893",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 420,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be27a3ed-a258-4c3b-8603-ae73ac00814a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "versos_perversos_minigame",
-    "path": "folders/Sprites/versos_perversos_minigame.yy",
+    "name": "versos_perversos",
+    "path": "folders/Sprites/versos_perversos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"95325550-cf05-4c65-a231-e37f58748e35","path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},},},"Disabled":false,"id":"835ef80c-7d9c-4eec-9ae4-07c9a3136bd2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"75f4f28c-e8c4-43a7-8766-247d833ca893","path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},},},"Disabled":false,"id":"895dffd6-0b67-41bc-b97e-bd00dc82a578","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 300,
 }

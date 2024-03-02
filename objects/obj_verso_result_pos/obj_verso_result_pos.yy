@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "versos_perversos_minigame",
-    "path": "folders/Objects/versos_perversos_minigame.yy",
+    "name": "versos_perversos",
+    "path": "folders/Objects/versos_perversos.yy",
   },
   "parentObjectId": null,
   "persistent": false,

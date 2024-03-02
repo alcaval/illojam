@@ -1,3 +1,5 @@
+audio_play_sound(snd_versos_perversos, 1000, true)
+
 _versos_sin_arreglar =  [
 	"Pues nada;gente eh;aquí dejo;lo que sería",
 	"Mi mayor;creación;hasta la;fecha:",
@@ -93,6 +95,8 @@ _shake_begin = false
 
 _original_x = obj_bokeron.x
 _original_y = obj_bokeron.y
+
+_restart_timer_flag = false
 
 obj_arrow_key.x = x - 20
 obj_arrow_key.y = y

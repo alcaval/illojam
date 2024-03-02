@@ -1,9 +1,8 @@
 draw_set_font(fnt_arial_default); // Set the font
-draw_set_color(c_white); // Set the color
+draw_set_color(c_black); // Set the color
 
 if (_shake_begin) {
 	obj_bokeron.sprite_index = spr_bokeron_bad
-	show_debug_message(delta_time)
 	_elapsed_time += 1;
 	var _ran_y = irandom_range(-10,10)
 	var _ran_x = irandom_range(-10,10)
@@ -35,7 +34,7 @@ if (_shake_begin) {
 
 if ((_result != _verso_perverso_comparison or _word_counter == 0) and !_shake_begin) {
 	for (var _i = 0; _i < array_length(_wrong_versos); _i++) {
-		draw_text(x, y + (_i * 20), string_split(_wrong_versos[_i], ";")[_word_counter])
+		draw_text(x, y + (_i * 50), string_split(_wrong_versos[_i], ";")[_word_counter])
 	}
 	draw_text(obj_verso_result_pos.x, obj_verso_result_pos.y, _result)
 
@@ -49,7 +48,7 @@ if ((_result != _verso_perverso_comparison or _word_counter == 0) and !_shake_be
 			_current_word_selected += 1
 		}
 	}
-	obj_arrow_key.y = y + (_current_word_selected*20)
+	obj_arrow_key.y = y + (_current_word_selected*50)
 
 	if (keyboard_check_pressed(vk_space)) {
 		var _current_word = string_split(_wrong_versos[_current_word_selected], ";")[_word_counter]
@@ -61,11 +60,14 @@ if ((_result != _verso_perverso_comparison or _word_counter == 0) and !_shake_be
 			_result += _current_word
 			audio_play_sound(snd_versos_perversos_yo, 1000, false)
 		}
-		show_debug_message(_result)
-		show_debug_message(_verso_perverso_comparison)
 		if (_split_verso_perverso[_word_counter] == _current_word && _word_counter > 0) {
 			_result += " " + _current_word
 			audio_play_sound(snd_versos_perversos_yo, 1000, false)
+			if (_result == _verso_perverso_comparison) {
+				_restart_timer_flag = true
+				obj_versos_controller._verso_timer = 40
+				obj_versos_controller._versos_done += 1
+			}
 		} else if(_split_verso_perverso[_word_counter] != _current_word &&_word_counter > 0) {
 			show_debug_message("MAL")
 			_shake_begin = true
