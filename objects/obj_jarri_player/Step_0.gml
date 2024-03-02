@@ -3,18 +3,19 @@ if (send_away_timer > 0) {
 }
 
 if (x < 0 || x > room_width || y < 0 || y > room_height) {
-    instance_destroy(); // Destroy the object if it goes beyond the screen
+	obj_jarri_varita.visible = false
+	obj_jarri_controller._jarri_spawned = false
+	obj_jarri_controller.respawn_jarri()
+	instance_destroy()
 }
 
 if (sprite_index == spr_jarri_player_draw) {
     if (image_index >= image_number - 1) {
-        // Animation of sprite_idle has ended
-        // Switch to sprite_next
         sprite_index = spr_jarri_player;
-        image_index = 0; // Reset image_index for the new sprite
+        image_index = 0;
 		_available = true
 		obj_jarri_varita.visible = true
-		obj_jarri_controller.respawn_jarri_enemy()
+		obj_jarri_controller._enemy_cooldown_timer = 5
     }	
 }
 

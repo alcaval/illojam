@@ -1,4 +1,4 @@
-if (obj_jarri_controller._jarri_spawned) {
+if (instance_exists(obj_jarri_player)) {
 	var _target_x = obj_jarri_player.x;
 	var _target_y = obj_jarri_player.y;
 
@@ -26,4 +26,6 @@ if (obj_jarri_controller._jarri_spawned) {
 	// Set the moving object's position to the new calculated position
 	x = obj_jarri_player.x;
 	y = obj_jarri_player.y;
+} else {
+	visible = false
 }
