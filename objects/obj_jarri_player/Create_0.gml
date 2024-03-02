@@ -1,7 +1,7 @@
 _h_speed = 0;
 _v_speed = 0;
-_gravity = 0.3;
-_walk_speed = 7;
+_gravity = 0.4;
+_walk_speed = 8;
 
 _max_jump_time = 40;
 _jump_time = 0;
