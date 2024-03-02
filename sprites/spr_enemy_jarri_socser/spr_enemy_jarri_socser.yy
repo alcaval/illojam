@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_enemy_jarri_socser",
-  "bbox_bottom": 588,
-  "bbox_left": 2,
-  "bbox_right": 597,
-  "bbox_top": 10,
+  "bbox_bottom": 421,
+  "bbox_left": 0,
+  "bbox_right": 477,
+  "bbox_top": 15,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20567404-2f6e-4d66-9e53-63ec246e9d3f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4443e9c1-0a02-4c16-969f-8eefbae2bcf2",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 600,
+  "height": 482,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be2ab773-220b-4f36-93c3-b2918ed65fe2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c45a42df-85f4-4abf-82a8-9c3599a3e9a9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20567404-2f6e-4d66-9e53-63ec246e9d3f","path":"sprites/spr_enemy_jarri_socser/spr_enemy_jarri_socser.yy",},},},"Disabled":false,"id":"ff29050b-c56f-4b11-821b-cee74245b5e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4443e9c1-0a02-4c16-969f-8eefbae2bcf2","path":"sprites/spr_enemy_jarri_socser/spr_enemy_jarri_socser.yy",},},},"Disabled":false,"id":"f9b06708-5a53-44f6-a257-5e535d9dbc8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 600,
+  "width": 478,
 }

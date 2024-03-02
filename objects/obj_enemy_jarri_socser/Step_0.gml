@@ -1,3 +1,9 @@
+if (x < 0 || x > room_width || y < 0 || y > room_height) {
+	obj_jarri_controller._enemy_spawned = false
+	obj_jarri_controller._enemy_cooldown_timer = 5
+	instance_destroy()
+}
+
 if (_active) {
 	if (send_away_timer > 0) {
 	    send_away_timer -= 1;
@@ -13,18 +19,17 @@ if (_active) {
 		_v_speed = _v_speed + _gravity
 
 		if (place_meeting(x, y + 1, obj_jarri_wall)) {
-			_v_speed = irandom_range(-5, -20)
+			_v_speed = irandom_range(-5, -15)
 		}
 		y = y + _v_speed
 
 		if (shoot_timer == 0) {
-		    instance_create_layer(x,y,"jarri_socser", obj_flipendo_enemy)
-			var direction_j = point_direction(x, y, obj_jarri_player.x, obj_jarri_player.y);
-			with(obj_flipendo_enemy) {
-				speed = 10
-				direction = direction_j
-				image_angle = direction
-				stored_direction = direction_j
+			show_debug_message(obj_enemy_varita.image_angle)
+		    var _bullet = instance_create_layer(x,y,"jarri_socser", obj_flipendo_enemy)
+			with(_bullet) {
+				speed = 10;
+				direction = obj_enemy_varita.image_angle;
+				image_angle = direction;
 			}
 			shoot_timer = 60
 		}
