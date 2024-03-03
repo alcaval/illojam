@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_versos_perversos_yo",
+  "name": "snd_select_versos",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.8,
+  "duration": 0.156719,
   "parent": {
     "name": "versos_perversos",
     "path": "folders/Sounds/versos_perversos.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_versos_perversos_yo.mp3",
+  "soundFile": "snd_select_versos.mp3",
   "type": 0,
-  "volume": 0.27,
+  "volume": 0.26,
 }

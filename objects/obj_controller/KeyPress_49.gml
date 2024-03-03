@@ -1,4 +1,0 @@
-obj_versos.reset()
-
-
-
