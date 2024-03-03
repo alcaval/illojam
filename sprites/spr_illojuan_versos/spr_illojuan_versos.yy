@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_bokeron_bad",
-  "bbox_bottom": 400,
-  "bbox_left": 3,
-  "bbox_right": 296,
-  "bbox_top": 12,
+  "name": "spr_illojuan_versos",
+  "bbox_bottom": 367,
+  "bbox_left": 21,
+  "bbox_right": 264,
+  "bbox_top": 10,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75f4f28c-e8c4-43a7-8766-247d833ca893",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a1d2a28-3653-4d79-996e-64dfed48a977",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 420,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be27a3ed-a258-4c3b-8603-ae73ac00814a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3e5a0bd0-4d13-4291-8420-72ad3160d361","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_bokeron_bad",
+    "name": "spr_illojuan_versos",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"75f4f28c-e8c4-43a7-8766-247d833ca893","path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},},},"Disabled":false,"id":"895dffd6-0b67-41bc-b97e-bd00dc82a578","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6a1d2a28-3653-4d79-996e-64dfed48a977","path":"sprites/spr_illojuan_versos/spr_illojuan_versos.yy",},},},"Disabled":false,"id":"8f448df3-6304-4467-9c90-36a9d0c53a9d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

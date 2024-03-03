@@ -5,13 +5,12 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "versos_perversos_minigame",
-    "path": "folders/Objects/versos_perversos_minigame.yy",
+    "name": "versos_perversos",
+    "path": "folders/Objects/versos_perversos.yy",
   },
   "parentObjectId": null,
   "persistent": false,

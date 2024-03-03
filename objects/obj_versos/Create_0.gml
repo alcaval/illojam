@@ -1,3 +1,5 @@
+audio_play_sound(snd_versos_perversos, 1000, true)
+
 _versos_sin_arreglar =  [
 	"Pues nada;gente eh;aquí dejo;lo que sería",
 	"Mi mayor;creación;hasta la;fecha:",
@@ -79,6 +81,7 @@ _versos = [
 randomise();
 _versos = array_shuffle(_versos);
 _verso_perverso = ""
+_verso_perverso_index = 0
 _verso_perverso_comparison = ""
 _split_verso_perverso = []
 _wrong_versos = []
@@ -93,6 +96,8 @@ _shake_begin = false
 
 _original_x = obj_bokeron.x
 _original_y = obj_bokeron.y
+
+_restart_timer_flag = false
 
 obj_arrow_key.x = x - 20
 obj_arrow_key.y = y
