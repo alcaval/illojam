@@ -25,6 +25,7 @@
     {"name":"versos_perversos","order":3,"path":"folders/Sprites/versos_perversos.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"inicio","order":1,"path":"folders/Objects/inicio.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_spawn","order":8,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},
@@ -76,5 +77,13 @@
     {"name":"snd_error","order":1,"path":"sounds/snd_error/snd_error.yy",},
     {"name":"spr_bokeron_correct","order":4,"path":"sprites/spr_bokeron_correct/spr_bokeron_correct.yy",},
     {"name":"spr_0","order":5,"path":"sprites/spr_0/spr_0.yy",},
+    {"name":"spr_controles_ventana","order":3,"path":"sprites/spr_controles_ventana/spr_controles_ventana.yy",},
+    {"name":"obj_controles_ventana","order":3,"path":"objects/obj_controles_ventana/obj_controles_ventana.yy",},
+    {"name":"obj_controles_icon","order":2,"path":"objects/obj_controles_icon/obj_controles_icon.yy",},
+    {"name":"spr_credits_icon","order":1,"path":"sprites/spr_credits_icon/spr_credits_icon.yy",},
+    {"name":"obj_creditos_icon","order":1,"path":"objects/obj_creditos_icon/obj_creditos_icon.yy",},
+    {"name":"spr_credits_ventana","order":4,"path":"sprites/spr_credits_ventana/spr_credits_ventana.yy",},
+    {"name":"spr_controles","order":2,"path":"sprites/spr_controles/spr_controles.yy",},
+    {"name":"obj_creditos_ventana","order":4,"path":"objects/obj_creditos_ventana/obj_creditos_ventana.yy",},
   ],
 }
