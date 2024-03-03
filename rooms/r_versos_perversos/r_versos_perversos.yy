@@ -12,6 +12,7 @@
     {"name":"inst_18611E83","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},
     {"name":"inst_62FF1D48","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},
     {"name":"inst_67464F68","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},
+    {"name":"inst_1AABE8F2","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -24,6 +25,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18611E83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_arrow_key","path":"objects/obj_arrow_key/obj_arrow_key.yy",},"properties":[],"rotation":0.0,"scaleX":0.5733334,"scaleY":0.5733333,"x":676.1738,"y":420.7599,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62FF1D48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_verso_result_pos","path":"objects/obj_verso_result_pos/obj_verso_result_pos.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":611.0,"y":304.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67464F68","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_versos_controller","path":"objects/obj_versos_controller/obj_versos_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":873.0,"y":682.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1AABE8F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_close_game","path":"objects/obj_close_game/obj_close_game.yy",},"properties":[],"rotation":0.0,"scaleX":0.54545456,"scaleY":0.32,"x":1860.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"mockup","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_70697DF4_2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"paint_background","path":"sprites/paint_background/paint_background.yy",},"x":0.0,"y":0.0,},
