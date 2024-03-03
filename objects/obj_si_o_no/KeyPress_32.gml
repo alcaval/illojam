@@ -1,5 +1,6 @@
-var is_successful = (current_option == obj_button_yes && character.is_character_true) 
-||  (current_option == obj_button_no && !character.is_character_true);
+var isLana = string_pos("lana", sprite_get_name(character.sprite_index))
+var is_successful = (current_option == obj_button_yes && isLana) 
+||  (current_option == obj_button_no && !isLana);
 
 if(is_successful)
 {
