@@ -2,7 +2,6 @@
 // Puede escribir su código en este editor
 
 spr_map = ds_map_create()
-ds_map_add(spr_map, "idle", spr_illojuan_idle)
 spr_map[? "idle"] = spr_illojuan_idle;
 spr_map[? "thinking"] = spr_illojuan_thinking;
 spr_map[? "happy"] = spr_illojuan_happy;
