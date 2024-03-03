@@ -7,6 +7,10 @@ if (_versos_done < 3) {
 		obj_versos._restart_timer_flag = false
 		obj_versos.reset()
 	}
-} else {
-	
+}
+
+if(keyboard_check_pressed(vk_enter)) {
+	var _layer_versos = layer_get_id("versos");
+	instance_deactivate_layer(_layer_versos);
+	audio_stop_all();
 }

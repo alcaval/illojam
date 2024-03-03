@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 124.24812,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "versos_perversos",
+    "path": "folders/Sounds/versos_perversos.yy",
   },
   "preload": false,
   "sampleRate": 44100,

@@ -81,6 +81,7 @@ _versos = [
 randomise();
 _versos = array_shuffle(_versos);
 _verso_perverso = ""
+_verso_perverso_index = 0
 _verso_perverso_comparison = ""
 _split_verso_perverso = []
 _wrong_versos = []
