@@ -41,6 +41,7 @@
     {"name":"spr_flipendo","order":2,"path":"sprites/spr_flipendo/spr_flipendo.yy",},
     {"name":"spr_2","order":1,"path":"sprites/spr_2/spr_2.yy",},
     {"name":"obj_flipendo_enemy","order":5,"path":"objects/obj_flipendo_enemy/obj_flipendo_enemy.yy",},
+    {"name":"obj_streamer_text","order":1,"path":"objects/obj_streamer_text/obj_streamer_text.yy",},
     {"name":"spr_jarri_varita","order":1,"path":"sprites/spr_jarri_varita/spr_jarri_varita.yy",},
     {"name":"spr_lana_3","order":2,"path":"sprites/spr_lana_3/spr_lana_3.yy",},
     {"name":"spr_enemy_jarri_socser","order":3,"path":"sprites/spr_enemy_jarri_socser/spr_enemy_jarri_socser.yy",},
