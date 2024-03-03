@@ -29,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_illojuan_idle",
-    "path": "sprites/spr_illojuan_idle/spr_illojuan_idle.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

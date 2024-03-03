@@ -1,6 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
+instance_deactivate_layer("si_o_no")
+
 spr_map = ds_map_create()
 spr_map[? "idle"] = spr_illojuan_idle;
 spr_map[? "thinking"] = spr_illojuan_thinking;
@@ -10,6 +12,10 @@ spr_map[? "focused"] = spr_illojuan_focused;
 spr_map[? "ennove"] = spr_illojuan_ennove;
 
 current_line = ""
+is_transitioning = false
+alpha = 0
+old_sprite = spr_map[? "idle"]
+new_sprite = spr_map[? "idle"]
 
 dialogue = [
 		"idle$Hola buenas soy el famoso streamer illojuan",
@@ -21,11 +27,22 @@ dialogue = [
 		]
 		
 function illojuan_say_text() {
-	text_split = string_split(dialogue[0], "$")
-	sprite_index = spr_map[? text_split[0]]
-	current_line = text_split[1]
-	if(array_length(dialogue) > 1) {
+	if(array_length(dialogue) > 0) {
+		text_split = string_split(dialogue[0], "$")
+		old_sprite = new_sprite
+		new_sprite = spr_map[? text_split[0]]
+		is_transitioning = true
+		alpha = 0;
+		//sprite_index = spr_map[? text_split[0]]
+		current_line = text_split[1]
 		array_shift(dialogue)
+	}
+	else {
+		old_sprite = new_sprite
+		new_sprite = spr_map[? "focused"]
+		//sprite_index = spr_map[? "focused"]
+		current_line = ""
+		instance_activate_layer("si_o_no")
 	}
 }
 

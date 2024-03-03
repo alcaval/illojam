@@ -10,6 +10,18 @@ with(obj_streamer_text) {
 }
 
 
+draw_sprite_ext(old_sprite, 0, x, y, 1, 1, 0, c_white, 1)
+draw_sprite_ext(new_sprite, 0, x, y, 1, 1, 0, c_white, alpha)
+
+if(is_transitioning) {
+	alpha += 0.05
+	if(alpha >= 1) {
+		is_transitioning = false
+	}
+}
+
+
+
 
 
 
