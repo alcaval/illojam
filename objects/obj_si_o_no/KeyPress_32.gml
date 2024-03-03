@@ -10,7 +10,7 @@ if(is_successful)
 
 else
 {
-	audio_play_sound(snd_versos_perversos, 0, false);
+	audio_play_sound(snd_error, 0, false);
 }
 
 reset();

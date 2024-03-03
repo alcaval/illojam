@@ -15,5 +15,6 @@
     {"name":"spr_herdier","order":2,"path":"sprites/spr_herdier/spr_herdier.yy",},
     {"name":"obj_character","order":1,"path":"objects/obj_character/obj_character.yy",},
     {"name":"spr_lana_4","order":3,"path":"sprites/spr_lana_4/spr_lana_4.yy",},
+    {"name":"snd_error","order":1,"path":"sounds/snd_error/snd_error.yy",},
   ],
 }

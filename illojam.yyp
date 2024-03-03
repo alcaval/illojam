@@ -120,6 +120,7 @@
     {"id":{"name":"obj_jarri_controller","path":"objects/obj_jarri_controller/obj_jarri_controller.yy",},},
     {"id":{"name":"r_bokeron_versos_perversos","path":"rooms/r_bokeron_versos_perversos/r_bokeron_versos_perversos.yy",},},
     {"id":{"name":"spr_lana_4","path":"sprites/spr_lana_4/spr_lana_4.yy",},},
+    {"id":{"name":"snd_error","path":"sounds/snd_error/snd_error.yy",},},
     {"id":{"name":"spr_0","path":"sprites/spr_0/spr_0.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
