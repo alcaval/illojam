@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"cowboy_bebop","order":6,"path":"folders/Objects/cowboy_bebop.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_spawn","order":8,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},
     {"name":"spr_illojuan_happy","order":2,"path":"sprites/spr_illojuan_happy/spr_illojuan_happy.yy",},
@@ -27,6 +29,7 @@
     {"name":"spr_3","order":2,"path":"sprites/spr_3/spr_3.yy",},
     {"name":"spr_cagaste","order":7,"path":"sprites/spr_cagaste/spr_cagaste.yy",},
     {"name":"spr_jarri_player_draw","order":8,"path":"sprites/spr_jarri_player_draw/spr_jarri_player_draw.yy",},
+    {"name":"r_cowboy_bebop","order":5,"path":"rooms/r_cowboy_bebop/r_cowboy_bebop.yy",},
     {"name":"spr_barbie","order":1,"path":"sprites/spr_barbie/spr_barbie.yy",},
     {"name":"obj_jarri_spawn","order":7,"path":"objects/obj_jarri_spawn/obj_jarri_spawn.yy",},
     {"name":"obj_cagaste","order":12,"path":"objects/obj_cagaste/obj_cagaste.yy",},
