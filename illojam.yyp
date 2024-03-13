@@ -55,6 +55,7 @@
   "resources": [
     {"id":{"name":"spr_1","path":"sprites/spr_1/spr_1.yy",},},
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},},
+    {"id":{"name":"obj_illojuan_streamer_si_o_no","path":"objects/obj_illojuan_streamer_si_o_no/obj_illojuan_streamer_si_o_no.yy",},},
     {"id":{"name":"spr_illojuan_happy","path":"sprites/spr_illojuan_happy/spr_illojuan_happy.yy",},},
     {"id":{"name":"spr_exit_icon","path":"sprites/spr_exit_icon/spr_exit_icon.yy",},},
     {"id":{"name":"spr_bokeron_portrait","path":"sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",},},
@@ -158,9 +159,9 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
     {"roomId":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
     {"roomId":{"name":"r_versos_perversos","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},},
-    {"roomId":{"name":"r_si_o_no","path":"rooms/r_si_o_no/r_si_o_no.yy",},},
     {"roomId":{"name":"r_jarri","path":"rooms/r_jarri/r_jarri.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
