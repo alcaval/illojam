@@ -49,7 +49,7 @@ _v_speed = _v_speed + _gravity
 
 //JUMP
 if (place_meeting(x, y + 1, obj_jarri_wall) && (_key_jump)) {
-	_v_speed = -12
+	_v_speed = -15
 	_jump_time = 1;
 }
 

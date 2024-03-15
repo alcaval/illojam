@@ -19,11 +19,12 @@ if (_active) {
 		_v_speed = _v_speed + _gravity
 
 		if (place_meeting(x, y + 1, obj_jarri_wall)) {
+			_can_shoot = true
 			_v_speed = irandom_range(-5, -15)
 		}
 		y = y + _v_speed
 
-		if (shoot_timer == 0) {
+		if (shoot_timer == 0 and _can_shoot) {
 			show_debug_message(obj_enemy_varita.image_angle)
 		    var _bullet = instance_create_layer(x,y,"jarri_socser", obj_flipendo_enemy)
 			with(_bullet) {
