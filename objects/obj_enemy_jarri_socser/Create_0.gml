@@ -15,3 +15,4 @@ _gravity = 0.3;
 _walk_speed = 4;
 
 _active = false
+_can_shoot = false
