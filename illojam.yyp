@@ -77,6 +77,7 @@
     {"id":{"name":"obj_bokeron","path":"objects/obj_bokeron/obj_bokeron.yy",},},
     {"id":{"name":"obj_jarri_wall","path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},},
     {"id":{"name":"obj_enemy_points","path":"objects/obj_enemy_points/obj_enemy_points.yy",},},
+    {"id":{"name":"r_perro_antesala","path":"rooms/r_perro_antesala/r_perro_antesala.yy",},},
     {"id":{"name":"obj_versos_controller","path":"objects/obj_versos_controller/obj_versos_controller.yy",},},
     {"id":{"name":"obj_enemy_varita","path":"objects/obj_enemy_varita/obj_enemy_varita.yy",},},
     {"id":{"name":"snd_grito","path":"sounds/snd_grito/snd_grito.yy",},},
@@ -104,6 +105,7 @@
     {"roomId":{"name":"r_jarri","path":"rooms/r_jarri/r_jarri.yy",},},
     {"roomId":{"name":"r_versos_perversos","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_perro_antesala","path":"rooms/r_perro_antesala/r_perro_antesala.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

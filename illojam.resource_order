@@ -53,6 +53,7 @@
     {"name":"obj_bokeron","order":3,"path":"objects/obj_bokeron/obj_bokeron.yy",},
     {"name":"obj_jarri_wall","order":1,"path":"objects/obj_jarri_wall/obj_jarri_wall.yy",},
     {"name":"obj_enemy_points","order":11,"path":"objects/obj_enemy_points/obj_enemy_points.yy",},
+    {"name":"r_perro_antesala","order":6,"path":"rooms/r_perro_antesala/r_perro_antesala.yy",},
     {"name":"obj_versos_controller","order":4,"path":"objects/obj_versos_controller/obj_versos_controller.yy",},
     {"name":"obj_enemy_varita","order":9,"path":"objects/obj_enemy_varita/obj_enemy_varita.yy",},
     {"name":"snd_grito","order":1,"path":"sounds/snd_grito/snd_grito.yy",},
