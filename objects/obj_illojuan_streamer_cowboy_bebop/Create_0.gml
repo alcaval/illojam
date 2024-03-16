@@ -30,6 +30,7 @@ old_sprite = spr_map[? "idle"]
 new_sprite = spr_map[? "idle"]
 
 is_start_dialogue = true;
+is_playing = false;
 		
 function illojuan_say_text() {
 	if(array_length(dialogue) > 0) {
@@ -49,6 +50,7 @@ function illojuan_say_text() {
 		current_line = ""
 		obj_sound_manager.stop_talking_sound();
 		audio_play_sound(snd_cowboy_soundtrack, 10, true);
+		is_playing = true;
 		instance_activate_layer(game_layer)
 	}
 	else {
@@ -61,6 +63,7 @@ function set_end_dialogue() {
 	obj_sound_manager.resume_talking_sound();
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
+	is_playing = false;
 	dialogue = end_dialogue
 	illojuan_say_text()
 }

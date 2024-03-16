@@ -36,10 +36,10 @@ old_sprite = spr_map[? "idle"]
 new_sprite = spr_map[? "idle"]
 
 is_start_dialogue = true;
+is_playing = false;
 		
 function illojuan_say_text() {
 	if(array_length(dialogue) > 0) {
-		obj_sound_manager.resume_talking_sound();
 		text_split = string_split(dialogue[0], "$")
 		old_sprite = new_sprite
 		new_sprite = spr_map[? text_split[0]]
@@ -55,7 +55,9 @@ function illojuan_say_text() {
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
 		obj_sound_manager.stop_talking_sound();
+		audio_play_sound(snd_si_o_no_bg, 10, true)
 		instance_activate_layer(game_layer)
+		is_playing = true;
 	}
 	else {
 		room_goto_next()
@@ -64,8 +66,10 @@ function illojuan_say_text() {
 
 function set_end_dialogue() {
 	obj_sound_manager.resume_talking_sound();
+	audio_stop_sound(snd_si_o_no_bg)
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
+	is_playing = false;
 	dialogue = end_dialogue
 	illojuan_say_text()
 }

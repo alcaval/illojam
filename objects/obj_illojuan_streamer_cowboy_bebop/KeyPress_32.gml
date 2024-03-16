@@ -1,5 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
-illojuan_say_text()
+if(!is_playing) {
+	illojuan_say_text()
+}
 
