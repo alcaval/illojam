@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"characters","order":4,"path":"folders/Objects/si_o_no_minigame/characters.yy",},
     {"name":"cowboy_bebop","order":6,"path":"folders/Objects/cowboy_bebop.yy",},
+    {"name":"characters","order":4,"path":"folders/Objects/si_o_no_minigame/characters.yy",},
     {"name":"cowboy_bebop","order":1,"path":"folders/Sprites/cowboy_bebop.yy",},
   ],
   "ResourceOrderSettings": [
@@ -31,6 +31,7 @@
     {"name":"obj_car_mid","order":5,"path":"objects/obj_car_mid/obj_car_mid.yy",},
     {"name":"spr_controles_ventana","order":3,"path":"sprites/spr_controles_ventana/spr_controles_ventana.yy",},
     {"name":"obj_button_no","order":2,"path":"objects/obj_button_no/obj_button_no.yy",},
+    {"name":"obj_illojuan_streamer_cowboy_bebop","order":10,"path":"objects/obj_illojuan_streamer_cowboy_bebop/obj_illojuan_streamer_cowboy_bebop.yy",},
     {"name":"obj_hand","order":1,"path":"objects/obj_hand/obj_hand.yy",},
     {"name":"obj_controles_ventana","order":3,"path":"objects/obj_controles_ventana/obj_controles_ventana.yy",},
     {"name":"spr_cowboy_mid","order":2,"path":"sprites/spr_cowboy_mid/spr_cowboy_mid.yy",},

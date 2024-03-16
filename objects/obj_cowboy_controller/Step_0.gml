@@ -3,15 +3,15 @@
 var _enter = keyboard_check_pressed(vk_enter);
 var _pause = keyboard_check_pressed(vk_space);
 
-if (_enter)
-	{
-		cowboy_restart = true;
-	}
+//if (_enter)
+//	{
+//		cowboy_restart = true;
+//	}
 	
-if (_pause)
-	{
-		play = false;
-	}
+//if (_pause)
+//	{
+//		play = false;
+//	}
 
 if (cowboy_restart)
 	{

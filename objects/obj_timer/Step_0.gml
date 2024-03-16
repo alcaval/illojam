@@ -9,6 +9,7 @@ if(obj_cowboy_controller.play){
 		timer = 0;
 		obj_cowboy_controller.play = false;
 		draw_text(x,y, "Victoria royale");
+		obj_illojuan_streamer_cowboy_bebop.set_end_dialogue();
 	}
 	show_time = ceil(timer);
 }
