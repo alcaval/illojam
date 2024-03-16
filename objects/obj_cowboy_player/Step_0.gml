@@ -1,8 +1,8 @@
 //get inputs
-var _rightkey = keyboard_check(ord("D"));
-var _leftkey = keyboard_check(ord("A"));
-var _upkey = keyboard_check(ord("W"));
-var _downkey = keyboard_check(ord("S"));
+var _rightkey = keyboard_check(vk_right);
+var _leftkey = keyboard_check(vk_left);
+var _upkey = keyboard_check(vk_up);
+var _downkey = keyboard_check(vk_down);
 
 if(obj_cowboy_controller.play && !dead)
 {

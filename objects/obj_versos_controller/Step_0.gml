@@ -7,6 +7,9 @@ if (_versos_done < 3) {
 		obj_versos._restart_timer_flag = false
 		obj_versos.reset()
 	}
+} else if (_versos_done == 3) {
+	audio_stop_sound(snd_versos_perversos);
+	obj_illojuan_streamer_versos_perversos.set_end_dialogue();
 }
 
 if(keyboard_check_pressed(vk_enter)) {

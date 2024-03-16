@@ -22,7 +22,7 @@ character.sprite_index = character_sprites[current_index]
 
 function reset() {
 	if(correct_guesses >= 10) {
-		show_debug_message("GANASTE - PASA A OTRA COSA")
+		obj_illojuan_streamer_si_o_no.set_end_dialogue()
 	}
 	else {
 		current_index = (current_index+1) % array_length(character_sprites)

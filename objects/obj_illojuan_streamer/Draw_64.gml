@@ -3,10 +3,11 @@
 
 
 with(obj_streamer_text) {
+	draw_set_font(fnt_arial_default)
 	draw_set_color(c_black)
-	draw_set_halign(fa_center)
-	draw_set_valign(fa_middle)
-	draw_text(x, y, obj_illojuan_streamer.current_line ?? "")
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+	draw_text_ext(x, y, obj_illojuan_streamer_si_o_no.current_line ?? "", -1, 300)
 }
 
 
