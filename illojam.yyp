@@ -80,6 +80,7 @@
     {"id":{"name":"obj_versos","path":"objects/obj_versos/obj_versos.yy",},},
     {"id":{"name":"spr_illojuan_quieto","path":"sprites/spr_illojuan_quieto/spr_illojuan_quieto.yy",},},
     {"id":{"name":"spr_illojuan_perro_andando","path":"sprites/spr_illojuan_perro_andando/spr_illojuan_perro_andando.yy",},},
+    {"id":{"name":"snd_cowboy_soundtrack","path":"sounds/snd_cowboy_soundtrack/snd_cowboy_soundtrack.yy",},},
     {"id":{"name":"snd_bip_2","path":"sounds/snd_bip_2/snd_bip_2.yy",},},
     {"id":{"name":"obj_jarri_points","path":"objects/obj_jarri_points/obj_jarri_points.yy",},},
     {"id":{"name":"spr_bokeron_bad","path":"sprites/spr_bokeron_bad/spr_bokeron_bad.yy",},},
