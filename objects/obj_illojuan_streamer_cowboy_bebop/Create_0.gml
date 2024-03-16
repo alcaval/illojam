@@ -47,6 +47,7 @@ function illojuan_say_text() {
 		new_sprite = spr_map[? "focused"]
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
+		obj_sound_manager.stop_talking_sound();
 		instance_activate_layer(game_layer)
 	}
 	else {
@@ -55,12 +56,14 @@ function illojuan_say_text() {
 }
 
 function set_end_dialogue() {
+	obj_sound_manager.resume_talking_sound();
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
 	dialogue = end_dialogue
 	illojuan_say_text()
 }
 
+obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
 
 
