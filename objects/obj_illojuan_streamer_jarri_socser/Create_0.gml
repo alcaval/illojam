@@ -3,15 +3,15 @@
 
 game_layer = "jarri_socser"
 start_dialogue = [
-		"idle$Al final el tío me dice: Échame una mano a ver si me acuerdo",
-		"thinking$y ya pasas si la Lana mu lejo no habrá ido no?",
-		"frustrao$y yo ya to cabreao le tuve que echar una mano",
-		"ennove$a ver si el niño se acordaba de la cancioncita.",
+		"idle$Estaba el marcos montao en el cepillo como si fuera Harry potter ",
+		"thinking$y el nota va y me dice que tocaba duelo de magos.",
+		"focused$y en nah empieza ahí a tirarme flipendos.",
 		]
 end_dialogue = [
-		"frustrao$Después de echarle una mano el tío me deja pasá",
-		"idle$y me dice: Anda y buscas a la perra a ver si tienes suerte,",
-		"ennove$y yo pensando: el nota ya se podría haber quitao pero weno.",
+		"ennove$Menos mal que de esto manejo y le di pal pelo",
+		"happy$y ya me dijo que le tirara palante que había atado a la lana a la puerta",
+		"happy$y que lo dejara tranquilico unos días.",		
+		"ennove$Ha sido largo el sueño pero ya se acaba lo juro.",
 		]
 
 dialogue=start_dialogue
