@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_illojuan_quieto",
+  "name": "spr_illojuan_quieto31",
   "bbox_bottom": 388,
   "bbox_left": 242,
   "bbox_right": 322,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "perro_antesala",
-    "path": "folders/Sprites/perro_antesala.yy",
+    "name": "antesala_peluqueria_final",
+    "path": "folders/Sprites/antesala_peluqueria_final.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3b62c776-5549-46fd-ac27-acaa3be4cf83","path":"sprites/spr_illojuan_quieto/spr_illojuan_quieto.yy",},},},"Disabled":false,"id":"fe87bcaf-7b23-4fd2-9dc2-7cb89361d9f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3b62c776-5549-46fd-ac27-acaa3be4cf83","path":"sprites/spr_illojuan_quieto31/spr_illojuan_quieto31.yy",},},},"Disabled":false,"id":"f4eaf7ee-5558-4950-973b-3a5182103e38","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
