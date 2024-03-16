@@ -3,12 +3,12 @@
 
 game_layer = "cowboy_bebop"
 start_dialogue = [
-		"ennove$Le pisé al caballo a tope pero no veas la de baches que había en la carretera,",
+		"ennove$Me encontré un caballo, me monté y le pisé a tope pero no veas la de baches que había en la carretera,",
 		"happy$aquí no había llegado todavía Alexelcapo a asfaltarlas.",
 		]
 end_dialogue = [
-		"ennove$Y me planté en el Pétalos ahí que ya ni me acordaba de lo que estaba haciendo casi,",
-		"idle$menos mal que vi en el balcón a Lana y ya le tiré palante y entré.",
+		"ennove$Y me planté en la gasolinera ahí que ya ni me acordaba de lo que estaba haciendo casi,",
+		"idle$menos mal que vi en una ventana a Lana y ya le tiré palante y entré.",
 		]
 
 dialogue=start_dialogue
@@ -48,6 +48,7 @@ function illojuan_say_text() {
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
 		obj_sound_manager.stop_talking_sound();
+		audio_play_sound(snd_cowboy_soundtrack, 10, true);
 		instance_activate_layer(game_layer)
 	}
 	else {
@@ -56,6 +57,7 @@ function illojuan_say_text() {
 }
 
 function set_end_dialogue() {
+	audio_stop_sound(snd_cowboy_soundtrack);
 	obj_sound_manager.resume_talking_sound();
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false

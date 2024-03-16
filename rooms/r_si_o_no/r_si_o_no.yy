@@ -11,7 +11,6 @@
     {"name":"inst_56FDB3CD","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_18BA02C1","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_5DDBCD46","path":"rooms/r_si_o_no/r_si_o_no.yy",},
-    {"name":"inst_39779CA9","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_2EB2D112","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_63008FD1","path":"rooms/r_si_o_no/r_si_o_no.yy",},
     {"name":"inst_238845B2","path":"rooms/r_si_o_no/r_si_o_no.yy",},
@@ -20,7 +19,6 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"streamer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39779CA9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_illojuan_streamer","path":"objects/obj_illojuan_streamer/obj_illojuan_streamer.yy",},"properties":[],"rotation":0.0,"scaleX":1.2812499,"scaleY":1.2812499,"x":183.0,"y":475.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2EB2D112","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_streamer_text","path":"objects/obj_streamer_text/obj_streamer_text.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63008FD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_illojuan_streamer_si_o_no","path":"objects/obj_illojuan_streamer_si_o_no/obj_illojuan_streamer_si_o_no.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":185.0,"y":477.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238845B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_close_game","path":"objects/obj_close_game/obj_close_game.yy",},"properties":[],"rotation":0.0,"scaleX":0.56363636,"scaleY":0.28,"x":1858.0,"y":0.0,},

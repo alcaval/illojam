@@ -3,11 +3,11 @@
 
 game_layer = "versos"
 start_dialogue = [
-		"idle$Weno pero que haces aquí otra ve mushahso",
-		"thinking$y ya le dije al Marco que estaba buscando a Lana que se me había soltado y nada",
+		"idle$Otra vez que veo al Marcos y me dice: Weno pero que haces aquí otra ve mushahso",
+		"thinking$y ya le dije que estaba buscando a Lana que se me había soltado y nada",
 		"frustrao$que no había huevos de verla y encima tenía a tos estos tocándome la polla",
 		"ennove$a lo que el marco me contesta con toa su cara que había visto a uno llevarse a la perra en coche",
-		"ennove$y que había tirao al club pétalos de la carretera y entonces no me quedó otra que tirar palante",
+		"ennove$y que había tirao a la gasolinera de la carretera y entonces no me quedó otra que tirar palante",
 		]
 
 dialogue=start_dialogue
@@ -51,12 +51,13 @@ function illojuan_say_text() {
 }
 
 function set_end_dialogue() {
+	obj_sound_manager.resume_talking_sound();
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
 	dialogue = end_dialogue
 	illojuan_say_text()
 }
-
+obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
 
 

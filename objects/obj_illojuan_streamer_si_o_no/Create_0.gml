@@ -39,6 +39,7 @@ is_start_dialogue = true;
 		
 function illojuan_say_text() {
 	if(array_length(dialogue) > 0) {
+		obj_sound_manager.resume_talking_sound();
 		text_split = string_split(dialogue[0], "$")
 		old_sprite = new_sprite
 		new_sprite = spr_map[? text_split[0]]
@@ -71,6 +72,5 @@ function set_end_dialogue() {
 
 obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
-
 
 

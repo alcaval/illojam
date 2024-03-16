@@ -1,4 +1,4 @@
-audio_play_sound(snd_versos_perversos, 1000, true)
+
 
 _versos_sin_arreglar =  [
 	"Pues nada;gente eh;aquí dejo;lo que sería",

@@ -1,22 +1,12 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "versos"
-start_dialogue = [
-		"idle$Total que yo lo veo y salgo pitando a por la perra y en esto que me encuentro con el Andrés ahí parao en mitad y yo diciéndole: ",
-		"frustrao$Oye dejame pasa que tengo que ir a por la Lana que se me ha perdido",
-		"thinking$y el nota en vez de dejarme pasar va y me dice: ",
-		"idle$Illo estaba aquí intentando acordarme de lo de versos perversos pero te puedes creer que se me ha olvidao??",
-		"frustrao$Y yo venga a decirle que me dejara pasar, pero nada, no había forma.",
-		"idle$Al final el tío me dice: Échame una mano a ver si me acuerdo",
-		"thinking$y ya pasas si la Lana mu lejo no habrá ido no?",
-		"frustrao$y yo ya to cabreao le tuve que echar una mano",
-		"ennove$a ver si el niño se acordaba de la cancioncita.",
-		]
+game_layer = "perro_paseo"
+start_dialogue = []
 end_dialogue = [
-		"idle$Después de echarle una mano el tío me deja pasá",
-		"idle$y me dice: Anda y buscas a la perra a ver si tienes suerte,",
-		"ennove$y yo pensando: el nota ya se podría haber quitao pero weno.",
+		"happy$Po weno esto fue el sueño", 		
+		"happy$menos mal que ya se ha acabao que esto se estaba haciendo mas largo que AVATAR",
+		"happy$anda, vamso a darle un rato al Reddit y ya jugamos.",
 		]
 
 dialogue=start_dialogue
@@ -55,6 +45,10 @@ function illojuan_say_text() {
 		new_sprite = spr_map[? "focused"]
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
+		obj_sound_manager.stop_talking_sound();
+		audio_play_sound(snd_outro, 10, true);
+		audio_sound_gain(snd_outro, 0, 0);
+		audio_sound_gain(snd_outro, 1, 500);
 		instance_activate_layer(game_layer)
 	}
 	else {
@@ -63,16 +57,13 @@ function illojuan_say_text() {
 }
 
 function set_end_dialogue() {
-	audio_stop_sound(snd_versos_perversos);
-	obj_sound_manager.resume_talking_sound();
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
 	dialogue = end_dialogue
 	illojuan_say_text()
 }
 
-obj_sound_manager.stop_talking_sound();
-audio_play_sound(snd_versos_perversos, 1000, true)
+
 illojuan_say_text()
 
 

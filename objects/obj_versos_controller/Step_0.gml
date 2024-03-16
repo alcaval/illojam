@@ -11,9 +11,3 @@ if (_versos_done < 3) {
 	audio_stop_sound(snd_versos_perversos);
 	obj_illojuan_streamer_versos_perversos.set_end_dialogue();
 }
-
-if(keyboard_check_pressed(vk_enter)) {
-	var _layer_versos = layer_get_id("versos");
-	instance_deactivate_layer(_layer_versos);
-	audio_stop_all();
-}

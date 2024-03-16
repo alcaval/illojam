@@ -3,14 +3,14 @@
 
 game_layer = "versos"
 start_dialogue = [
-		"idle$Derrepente aparezco por la cara en la peluquería con el Marco y me dice: ",
+		"idle$De repente aparezco por la cara en la peluquería con el Marco y me dice: ",
 		"thinking$Siéntate y te hago algo que vas hecho una mierda ",
 		"frustrao$y yo pensando que tenía que buscar a la perra, pero bueno",
 		"ennove$me senté y le dije que me hiciera lo que viese",
 		"happy$El tio me dice: te voy a hase el cortesito empresario que te vas a quedar hecho un pincel ",
 		"idle$Al rato me dice: Ale, ya le puedes tirar mostro a busca a Lana y le tiré palante más rayao que una zebra",
 		"frustrao$porque no me estaba enterando de lo que pasaba pero weno. ",
-		"ennove$Luego no vea lo que me encontré…",
+		"ennove$Luego no vea lo que me encontré...",
 		]
 
 dialogue=start_dialogue
@@ -52,7 +52,7 @@ function illojuan_say_text() {
 		room_goto_next()
 	}
 }
-
+obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
 
 

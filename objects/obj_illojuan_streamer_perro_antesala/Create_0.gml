@@ -3,7 +3,8 @@
 
 game_layer = "versos"
 start_dialogue = [
-		"idle$TEXTO TAL 2",
+		"happy$Y por fin veo a lana",		
+		"happy$Y pensé, bueno, habrá que seguir con el paseo",
 		]
 
 dialogue=start_dialogue
@@ -45,15 +46,7 @@ function illojuan_say_text() {
 	}
 }
 
-function set_end_dialogue() {
-	obj_sound_manager.resume_talking_sound();
-	instance_deactivate_layer(game_layer)
-	is_start_dialogue = false
-	dialogue = end_dialogue
-	illojuan_say_text()
-}
-
-obj_sound_manager.stop_talking_sound();
+obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
 
 
