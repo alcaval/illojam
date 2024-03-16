@@ -1,17 +1,14 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "si_o_no"
+game_layer = "cowboy_bebop"
 start_dialogue = [
-		"idle$Cogen estos dos y me sientan delante de dos botones",
-		"thinking$Y me dicen que le de al verde o al rojo dependiendo si las fotos son de mi perra o no",
-		"ennove$Y yo les digo que ellos a Lana la habían visto 80 veces",
-		"frustrao$Pero nada, que tuve que ponerme a decirles en qué fotos salía Lana...",
+		"ennove$Le pisé al caballo a tope pero no veas la de baches que había en la carretera,",
+		"happy$aquí no había llegado todavía Alexelcapo a asfaltarlas.",
 		]
 end_dialogue = [
-		"happy$Me dicen que gracias por colaborar y que puedo continuar. ",
-		"thinking$Yo estaba pensando to el rato que estos no habían hecho ni el huevo pero mira,",
-		"ennove$ya estaba en un plan que lo que quería era recuperar a lana y ya está",
+		"ennove$Y me planté en el Pétalos ahí que ya ni me acordaba de lo que estaba haciendo casi,",
+		"idle$menos mal que vi en el balcón a Lana y ya le tiré palante y entré.",
 		]
 
 dialogue=start_dialogue

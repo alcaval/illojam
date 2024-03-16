@@ -1,17 +1,17 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "si_o_no"
+game_layer = "jarri_socser"
 start_dialogue = [
-		"idle$Cogen estos dos y me sientan delante de dos botones",
-		"thinking$Y me dicen que le de al verde o al rojo dependiendo si las fotos son de mi perra o no",
-		"ennove$Y yo les digo que ellos a Lana la habían visto 80 veces",
-		"frustrao$Pero nada, que tuve que ponerme a decirles en qué fotos salía Lana...",
+		"idle$Estaba el marcos montao en el cepillo como si fuera Harry potter ",
+		"thinking$y el nota va y me dice que tocaba duelo de magos.",
+		"focused$y en nah empieza ahí a tirarme flipendos.",
 		]
 end_dialogue = [
-		"happy$Me dicen que gracias por colaborar y que puedo continuar. ",
-		"thinking$Yo estaba pensando to el rato que estos no habían hecho ni el huevo pero mira,",
-		"ennove$ya estaba en un plan que lo que quería era recuperar a lana y ya está",
+		"ennove$Menos mal que de esto manejo y le di pal pelo",
+		"happy$y ya me dijo que le tirara palante que había atado a la lana a la puerta",
+		"happy$y que lo dejara tranquilico unos días.",		
+		"ennove$Ha sido largo el sueño pero ya se acaba lo juro.",
 		]
 
 dialogue=start_dialogue
@@ -51,6 +51,11 @@ function illojuan_say_text() {
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
 		instance_activate_layer(game_layer)
+		if (obj_jarri_controller._jarri_points == -1) {
+			obj_jarri_controller._restart = true
+			obj_jarri_controller._enemy_points = 0
+			obj_jarri_controller._jarri_points = 0
+		}
 	}
 	else {
 		room_goto_next()

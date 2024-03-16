@@ -1,17 +1,17 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "si_o_no"
+game_layer = "versos"
 start_dialogue = [
-		"idle$Cogen estos dos y me sientan delante de dos botones",
-		"thinking$Y me dicen que le de al verde o al rojo dependiendo si las fotos son de mi perra o no",
-		"ennove$Y yo les digo que ellos a Lana la habían visto 80 veces",
-		"frustrao$Pero nada, que tuve que ponerme a decirles en qué fotos salía Lana...",
+		"idle$Al final el tío me dice: Échame una mano a ver si me acuerdo",
+		"thinking$y ya pasas si la Lana mu lejo no habrá ido no?",
+		"frustrao$y yo ya to cabreao le tuve que echar una mano",
+		"ennove$a ver si el niño se acordaba de la cancioncita.",
 		]
 end_dialogue = [
-		"happy$Me dicen que gracias por colaborar y que puedo continuar. ",
-		"thinking$Yo estaba pensando to el rato que estos no habían hecho ni el huevo pero mira,",
-		"ennove$ya estaba en un plan que lo que quería era recuperar a lana y ya está",
+		"frustrao$Después de echarle una mano el tío me deja pasá",
+		"idle$y me dice: Anda y buscas a la perra a ver si tienes suerte,",
+		"ennove$y yo pensando: el nota ya se podría haber quitao pero weno.",
 		]
 
 dialogue=start_dialogue

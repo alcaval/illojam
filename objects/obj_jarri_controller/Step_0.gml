@@ -1,8 +1,12 @@
-if (keyboard_check_pressed(vk_enter)) {
-	show_debug_message("chcho")
-	_restart = true
-	_enemy_points = 0
-	_jarri_points = 0
+if (_restart_timer > 0) {
+	_restart_timer--
+	show_debug_message(_restart_timer)
+	if (_restart_timer == 0) {
+		obj_cagaste.visible = false
+		_restart = true
+		_enemy_points = 0
+		_jarri_points = 0
+	}
 }
 
 if (_restart) {
@@ -34,9 +38,11 @@ obj_enemy_points.sprite_index = _sprite_index_enemy_points;
 if (_jarri_points == 5) {
 	_won = true
 	obj_jarri_varita.visible = false
+	obj_illojuan_streamer_jarri_socser.set_end_dialogue();
 }
-if (_enemy_points == 5) {
+if (_enemy_points == 5 and _restart_timer == 0) {
 	instance_destroy(obj_jarri_player)
 	obj_jarri_varita.visible = false
 	obj_cagaste.visible = true
+	_restart_timer = 60
 }

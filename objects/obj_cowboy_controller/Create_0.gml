@@ -9,7 +9,7 @@ obj_timer.timer = 60;
 obj_spawner.upper_range = 180;
 obj_spawner.lower_range = 90;
 
-cowboy_restart = false;
+cowboy_restart = true;
 
 
 	
