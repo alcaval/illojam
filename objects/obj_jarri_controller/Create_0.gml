@@ -2,11 +2,13 @@ _jarri_spawned = false
 _enemy_spawned = false
 _enemy_cooldown_timer = 0
 
-_jarri_points = 0
-_enemy_points = 4
+_jarri_points = -1
+_enemy_points = 0
 
 _won = false
 _restart = false
+
+_restart_timer = 0
 
 obj_cagaste.visible = false
 
