@@ -7,16 +7,16 @@ if(spawn && obj_cowboy_controller.play){
 	switch _aux_car {
 	
 		case(0): {
-			instance_create_layer(1450, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_slow); 
+			instance_create_layer(1100, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_slow); 
 			break;
 		}
 		
 		case(1): {
-			instance_create_layer(1450, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_fast); 
+			instance_create_layer(1300, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_fast); 
 			break;
 		}
 		
-		default: instance_create_layer(1450, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_mid);
+		default: instance_create_layer(1300, random_range(top_spawn_coordinate, down_spawn_coordinate), "cowboy_bebop", obj_car_mid);
 		
 	}
 	spawn = false;

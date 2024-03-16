@@ -18,9 +18,11 @@ if (cowboy_restart)
 		play = false;
 		if instance_exists(obj_cowboy_player) instance_destroy(obj_cowboy_player);
 		if instance_exists(obj_car) instance_destroy(obj_car);
-		instance_create_layer(obj_cowboy_player_pivot.x,obj_cowboy_player_pivot.y,"cowboy_bebop", obj_cowboy_player)
+		cowboy = instance_create_layer(obj_cowboy_player_pivot.x,obj_cowboy_player_pivot.y,"cowboy_bebop", obj_cowboy_player)
+		cowboy.image_xscale = 0.5;
+		cowboy.image_yscale = 0.5;
 		obj_timer.visible = true;
-		obj_timer.timer = 60;
+		obj_timer.timer = 30;
 		cowboy_restart = false;
 		obj_spawner.upper_range = 180;
 		obj_spawner.lower_range = 90;

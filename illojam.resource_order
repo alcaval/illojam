@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"cowboy_bebop","order":6,"path":"folders/Objects/cowboy_bebop.yy",},
     {"name":"cowboy_bebop","order":1,"path":"folders/Sprites/cowboy_bebop.yy",},
+    {"name":"cowboy_bebop","order":1,"path":"folders/Sounds/cowboy_bebop.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_spawn","order":8,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},

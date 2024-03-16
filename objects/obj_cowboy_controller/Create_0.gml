@@ -5,7 +5,7 @@ play = false
 
 
 obj_timer.visible = false;
-obj_timer.timer = 60;
+obj_timer.timer = 30;
 obj_spawner.upper_range = 180;
 obj_spawner.lower_range = 90;
 

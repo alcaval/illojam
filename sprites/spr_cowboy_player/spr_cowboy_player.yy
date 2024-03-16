@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_cowboy_player",
-  "bbox_bottom": 61,
-  "bbox_left": 1,
-  "bbox_right": 59,
-  "bbox_top": 3,
+  "bbox_bottom": 222,
+  "bbox_left": 6,
+  "bbox_right": 222,
+  "bbox_top": 5,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,11 +14,11 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f00c78b7-1093-4e17-826d-615a556eea23",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e441fdc3-1d82-479b-9ed3-4898d2e17373",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4fb7aa3-5abb-4aff-9b99-7629bb942059",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 230,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0649f141-deb3-4836-9804-53166ce2f123","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -48,7 +48,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -56,7 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f00c78b7-1093-4e17-826d-615a556eea23","path":"sprites/spr_cowboy_player/spr_cowboy_player.yy",},},},"Disabled":false,"id":"15a88451-b4cf-421e-b8e3-e76ab294eb1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e441fdc3-1d82-479b-9ed3-4898d2e17373","path":"sprites/spr_cowboy_player/spr_cowboy_player.yy",},},},"Disabled":false,"id":"f14485f9-ac04-4de1-8e6f-b8fee9e10ac3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f4fb7aa3-5abb-4aff-9b99-7629bb942059","path":"sprites/spr_cowboy_player/spr_cowboy_player.yy",},},},"Disabled":false,"id":"ceeb45f1-4dd7-4031-84d2-0b1722d45d69","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -72,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 230,
 }
