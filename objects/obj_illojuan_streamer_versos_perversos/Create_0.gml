@@ -3,6 +3,11 @@
 
 game_layer = "versos"
 start_dialogue = [
+		"idle$Total que yo lo veo y salgo pitando a por la perra y en esto que me encuentro con el Andrés ahí parao en mitad y yo diciéndole: ",
+		"frustrao$Oye dejame pasa que tengo que ir a por la Lana que se me ha perdido",
+		"thinking$y el nota en vez de dejarme pasar va y me dice: ",
+		"idle$Illo estaba aquí intentando acordarme de lo de versos perversos pero te puedes creer que se me ha olvidao??",
+		"frustrao$Y yo venga a decirle que me dejara pasar, pero nada, no había forma.",
 		"idle$Al final el tío me dice: Échame una mano a ver si me acuerdo",
 		"thinking$y ya pasas si la Lana mu lejo no habrá ido no?",
 		"frustrao$y yo ya to cabreao le tuve que echar una mano",

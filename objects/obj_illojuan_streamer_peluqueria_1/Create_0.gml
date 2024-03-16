@@ -1,20 +1,16 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "si_o_no"
+game_layer = "versos"
 start_dialogue = [
-		"thinking$Así de golpe estaban el Guille y el Evon vestíos de guardia civil ",
-		"frustrao$y yo me acerqué a preguntarles por Lana a ver si ellos sabían dónde estaba ",
-		"focused$y cuando les pregunto me dicen: Acompáñenos por aquí por favor ahí to formales.",
-		"idle$Cogen estos dos y me sientan delante de dos botones",
-		"thinking$Y me dicen que le de al verde o al rojo dependiendo si las fotos son de mi perra o no",
-		"ennove$Y yo les digo que ellos a Lana la habían visto 80 veces",
-		"frustrao$Pero nada, que tuve que ponerme a decirles en qué fotos salía Lana...",
-		]
-end_dialogue = [
-		"happy$Me dicen que gracias por colaborar y que puedo continuar. ",
-		"thinking$Yo estaba pensando to el rato que estos no habían hecho ni el huevo pero mira,",
-		"ennove$ya estaba en un plan que lo que quería era recuperar a lana y ya está",
+		"idle$Derrepente aparezco por la cara en la peluquería con el Marco y me dice: ",
+		"thinking$Siéntate y te hago algo que vas hecho una mierda ",
+		"frustrao$y yo pensando que tenía que buscar a la perra, pero bueno",
+		"ennove$me senté y le dije que me hiciera lo que viese",
+		"happy$El tio me dice: te voy a hase el cortesito empresario que te vas a quedar hecho un pincel ",
+		"idle$Al rato me dice: Ale, ya le puedes tirar mostro a busca a Lana y le tiré palante más rayao que una zebra",
+		"frustrao$porque no me estaba enterando de lo que pasaba pero weno. ",
+		"ennove$Luego no vea lo que me encontré…",
 		]
 
 dialogue=start_dialogue
@@ -53,18 +49,8 @@ function illojuan_say_text() {
 		new_sprite = spr_map[? "focused"]
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
-		instance_activate_layer(game_layer)
-	}
-	else {
 		room_goto_next()
 	}
-}
-
-function set_end_dialogue() {
-	instance_deactivate_layer(game_layer)
-	is_start_dialogue = false
-	dialogue = end_dialogue
-	illojuan_say_text()
 }
 
 illojuan_say_text()

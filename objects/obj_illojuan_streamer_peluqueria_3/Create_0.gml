@@ -1,20 +1,11 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-game_layer = "si_o_no"
+game_layer = "versos"
 start_dialogue = [
-		"thinking$Así de golpe estaban el Guille y el Evon vestíos de guardia civil ",
-		"frustrao$y yo me acerqué a preguntarles por Lana a ver si ellos sabían dónde estaba ",
-		"focused$y cuando les pregunto me dicen: Acompáñenos por aquí por favor ahí to formales.",
-		"idle$Cogen estos dos y me sientan delante de dos botones",
-		"thinking$Y me dicen que le de al verde o al rojo dependiendo si las fotos son de mi perra o no",
-		"ennove$Y yo les digo que ellos a Lana la habían visto 80 veces",
-		"frustrao$Pero nada, que tuve que ponerme a decirles en qué fotos salía Lana...",
-		]
-end_dialogue = [
-		"happy$Me dicen que gracias por colaborar y que puedo continuar. ",
-		"thinking$Yo estaba pensando to el rato que estos no habían hecho ni el huevo pero mira,",
-		"ennove$ya estaba en un plan que lo que quería era recuperar a lana y ya está",
+		"ennove$Vuelvo a entrar a la peluqeria pero esta vez no está el marcos, sólo está el cepillo ",
+		"frustrao$y pienso que el puto cabrón me ha dejado esto para que barra pero gueno",
+		"focused$pillé el cepillo y tiré palante",
 		]
 
 dialogue=start_dialogue
@@ -53,9 +44,6 @@ function illojuan_say_text() {
 		new_sprite = spr_map[? "focused"]
 		//sprite_index = spr_map[? "focused"]
 		current_line = ""
-		instance_activate_layer(game_layer)
-	}
-	else {
 		room_goto_next()
 	}
 }
