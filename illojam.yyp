@@ -235,7 +235,6 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
-    {"roomId":{"name":"r_perro_final","path":"rooms/r_perro_final/r_perro_final.yy",},},
     {"roomId":{"name":"r_inicial","path":"rooms/r_inicial/r_inicial.yy",},},
     {"roomId":{"name":"r_versos_perversos","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},},
     {"roomId":{"name":"r_peluqueria_1","path":"rooms/r_peluqueria_1/r_peluqueria_1.yy",},},
@@ -246,6 +245,7 @@
     {"roomId":{"name":"r_peluqueria_3","path":"rooms/r_peluqueria_3/r_peluqueria_3.yy",},},
     {"roomId":{"name":"r_jarri","path":"rooms/r_jarri/r_jarri.yy",},},
     {"roomId":{"name":"r_perro_antesala","path":"rooms/r_perro_antesala/r_perro_antesala.yy",},},
+    {"roomId":{"name":"r_perro_final","path":"rooms/r_perro_final/r_perro_final.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
