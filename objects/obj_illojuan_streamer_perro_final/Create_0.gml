@@ -25,7 +25,7 @@ current_line = ""
 is_transitioning = false
 alpha = 0
 old_sprite = spr_map[? "idle"]
-new_sprite = spr_map[? "idle"]
+new_sprite = spr_map[? "happy"]
 
 is_start_dialogue = true;
 		
@@ -58,11 +58,17 @@ function illojuan_say_text() {
 
 function set_end_dialogue() {
 	instance_deactivate_layer(game_layer)
+	with(obj_thanks4playing) {
+		visible = true;
+	}
 	is_start_dialogue = false
 	dialogue = end_dialogue
 	illojuan_say_text()
 }
 
+with(obj_thanks4playing) {
+	visible = false;
+}
 
 illojuan_say_text()
 

@@ -131,6 +131,7 @@
     {"id":{"name":"obj_escenario_perro","path":"objects/obj_escenario_perro/obj_escenario_perro.yy",},},
     {"id":{"name":"spr_illojuan_thinking","path":"sprites/spr_illojuan_thinking/spr_illojuan_thinking.yy",},},
     {"id":{"name":"spr_mierdon","path":"sprites/spr_mierdon/spr_mierdon.yy",},},
+    {"id":{"name":"obj_thanks4playing","path":"objects/obj_thanks4playing/obj_thanks4playing.yy",},},
     {"id":{"name":"snd_correct","path":"sounds/snd_correct/snd_correct.yy",},},
     {"id":{"name":"spr_3","path":"sprites/spr_3/spr_3.yy",},},
     {"id":{"name":"obj_illojuan_streamer_versos_perversos","path":"objects/obj_illojuan_streamer_versos_perversos/obj_illojuan_streamer_versos_perversos.yy",},},
@@ -204,6 +205,7 @@
     {"id":{"name":"r_peluqueria_1","path":"rooms/r_peluqueria_1/r_peluqueria_1.yy",},},
     {"id":{"name":"obj_enemy_jarri_socser","path":"objects/obj_enemy_jarri_socser/obj_enemy_jarri_socser.yy",},},
     {"id":{"name":"spr_illojuan_quieto31","path":"sprites/spr_illojuan_quieto31/spr_illojuan_quieto31.yy",},},
+    {"id":{"name":"spr_thanks4playing","path":"sprites/spr_thanks4playing/spr_thanks4playing.yy",},},
     {"id":{"name":"obj_illojuan_streamer_perro_final","path":"objects/obj_illojuan_streamer_perro_final/obj_illojuan_streamer_perro_final.yy",},},
     {"id":{"name":"spr_cowboy_player","path":"sprites/spr_cowboy_player/spr_cowboy_player.yy",},},
     {"id":{"name":"spr_cowboy_fast","path":"sprites/spr_cowboy_fast/spr_cowboy_fast.yy",},},
@@ -233,6 +235,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
+    {"roomId":{"name":"r_perro_final","path":"rooms/r_perro_final/r_perro_final.yy",},},
     {"roomId":{"name":"r_inicial","path":"rooms/r_inicial/r_inicial.yy",},},
     {"roomId":{"name":"r_versos_perversos","path":"rooms/r_versos_perversos/r_versos_perversos.yy",},},
     {"roomId":{"name":"r_peluqueria_1","path":"rooms/r_peluqueria_1/r_peluqueria_1.yy",},},
@@ -243,7 +246,6 @@
     {"roomId":{"name":"r_peluqueria_3","path":"rooms/r_peluqueria_3/r_peluqueria_3.yy",},},
     {"roomId":{"name":"r_jarri","path":"rooms/r_jarri/r_jarri.yy",},},
     {"roomId":{"name":"r_perro_antesala","path":"rooms/r_perro_antesala/r_perro_antesala.yy",},},
-    {"roomId":{"name":"r_perro_final","path":"rooms/r_perro_final/r_perro_final.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
