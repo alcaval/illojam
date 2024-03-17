@@ -33,6 +33,7 @@ old_sprite = spr_map[? "idle"]
 new_sprite = spr_map[? "idle"]
 
 is_start_dialogue = true;
+is_playing = false;
 		
 function illojuan_say_text() {
 	if(array_length(dialogue) > 0) {
@@ -57,6 +58,8 @@ function illojuan_say_text() {
 			obj_jarri_controller._enemy_points = 0
 			obj_jarri_controller._jarri_points = 0
 		}
+		audio_play_sound(snd_jarri_potter, 10, true)
+		is_playing = true;
 	}
 	else {
 		room_goto_next()
@@ -65,6 +68,8 @@ function illojuan_say_text() {
 
 function set_end_dialogue() {
 	obj_sound_manager.resume_talking_sound();
+	audio_stop_sound(snd_jarri_potter);
+	is_playing = false;
 	instance_deactivate_layer(game_layer)
 	is_start_dialogue = false
 	dialogue = end_dialogue
