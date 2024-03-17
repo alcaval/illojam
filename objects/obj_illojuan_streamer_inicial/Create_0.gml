@@ -49,11 +49,13 @@ function illojuan_say_text() {
 
 function set_end_dialogue() {
 	instance_deactivate_layer(game_layer)
+	obj_sound_manager.resume_talking_sound();
 	is_start_dialogue = false
 	dialogue = end_dialogue
 	illojuan_say_text()
 }
 
+obj_sound_manager.resume_talking_sound();
 illojuan_say_text()
 
 

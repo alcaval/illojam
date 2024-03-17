@@ -19,6 +19,7 @@
     {"name":"inst_46D975EA","path":"rooms/r_cowboy_bebop/r_cowboy_bebop.yy",},
     {"name":"inst_11221C62","path":"rooms/r_cowboy_bebop/r_cowboy_bebop.yy",},
     {"name":"inst_42B716C5","path":"rooms/r_cowboy_bebop/r_cowboy_bebop.yy",},
+    {"name":"inst_28D6252B","path":"rooms/r_cowboy_bebop/r_cowboy_bebop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -26,6 +27,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46D975EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_illojuan_streamer_cowboy_bebop","path":"objects/obj_illojuan_streamer_cowboy_bebop/obj_illojuan_streamer_cowboy_bebop.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":178.0,"y":471.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_11221C62","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_streamer_text","path":"objects/obj_streamer_text/obj_streamer_text.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42B716C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_close_game","path":"objects/obj_close_game/obj_close_game.yy",},"properties":[],"rotation":0.0,"scaleX":0.56363636,"scaleY":0.36,"x":1856.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28D6252B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"cowboy_bebop","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26322101","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":10.75,"x":336.0,"y":272.0,},
