@@ -1,0 +1,1 @@
+obj_illojuan_streamer_perro_final.set_end_dialogue();
