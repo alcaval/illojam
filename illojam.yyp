@@ -78,6 +78,7 @@
     {"id":{"name":"spr_si_btn_idle","path":"sprites/spr_si_btn_idle/spr_si_btn_idle.yy",},},
     {"id":{"name":"obj_car_fast","path":"objects/obj_car_fast/obj_car_fast.yy",},},
     {"id":{"name":"obj_versos","path":"objects/obj_versos/obj_versos.yy",},},
+    {"id":{"name":"r_main_winning","path":"rooms/r_main_winning/r_main_winning.yy",},},
     {"id":{"name":"spr_illojuan_quieto","path":"sprites/spr_illojuan_quieto/spr_illojuan_quieto.yy",},},
     {"id":{"name":"spr_illojuan_perro_andando","path":"sprites/spr_illojuan_perro_andando/spr_illojuan_perro_andando.yy",},},
     {"id":{"name":"snd_cowboy_soundtrack","path":"sounds/snd_cowboy_soundtrack/snd_cowboy_soundtrack.yy",},},
@@ -247,6 +248,7 @@
     {"roomId":{"name":"r_jarri","path":"rooms/r_jarri/r_jarri.yy",},},
     {"roomId":{"name":"r_perro_antesala","path":"rooms/r_perro_antesala/r_perro_antesala.yy",},},
     {"roomId":{"name":"r_perro_final","path":"rooms/r_perro_final/r_perro_final.yy",},},
+    {"roomId":{"name":"r_main_winning","path":"rooms/r_main_winning/r_main_winning.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

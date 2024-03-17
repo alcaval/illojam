@@ -52,7 +52,7 @@ function illojuan_say_text() {
 		instance_activate_layer(game_layer)
 	}
 	else {
-		room_goto(r_main)
+		room_goto(r_main_winning)
 	}
 }
 

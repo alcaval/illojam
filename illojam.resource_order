@@ -40,6 +40,7 @@
     {"name":"spr_bokeron_portrait","order":3,"path":"sprites/spr_bokeron_portrait/spr_bokeron_portrait.yy",},
     {"name":"obj_car_fast","order":6,"path":"objects/obj_car_fast/obj_car_fast.yy",},
     {"name":"obj_versos","order":1,"path":"objects/obj_versos/obj_versos.yy",},
+    {"name":"r_main_winning","order":9,"path":"rooms/r_main_winning/r_main_winning.yy",},
     {"name":"spr_illojuan_quieto","order":1,"path":"sprites/spr_illojuan_quieto/spr_illojuan_quieto.yy",},
     {"name":"spr_illojuan_perro_andando","order":1,"path":"sprites/spr_illojuan_perro_andando/spr_illojuan_perro_andando.yy",},
     {"name":"obj_jarri_points","order":10,"path":"objects/obj_jarri_points/obj_jarri_points.yy",},
